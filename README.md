@@ -1,5 +1,5 @@
 # HREmployeeAttrition-DataScience-JupyterNotebook
-**This notebook uses a human resources dataset to predict employee attrition with machine learning by using a random forest algorithm.**
+### This notebook uses a human resources dataset to predict employee attrition with machine learning by using a random forest algorithm.
 
     Copyright (C) 2023  Dee Weinacht
 
@@ -17,3 +17,24 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 **Description**
+
+This is a supervised machine learning data science project. It utilizes a synthetic human resources dataset created by IBM, and sourced from [kaggle.com](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).
+
+The notebook includes a full data science project with the following steps:
+
+1. Data Preparation
+    - Importing and checking dataset
+    - Data cleaning
+    - Exploratory Data Analysis
+    - Data Wrangling
+2. Machine Learning
+    - Train-test split
+    - Random forest model
+    - Balanced random forest model
+    - Hyperparameter tuning
+3. Model Application
+    - Feature importance evaluation
+    - Interactive web application
+
+**User's Guide**
+
