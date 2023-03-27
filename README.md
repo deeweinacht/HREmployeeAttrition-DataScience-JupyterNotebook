@@ -20,7 +20,7 @@
 
 This is a supervised machine learning data science project. It utilizes a synthetic human resources dataset created by IBM, and sourced from [kaggle.com](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).
 
-The notebook includes a full data science project with the following steps:
+The notebook includes a full data science project including the following:
 
 1. Data Preparation
     - Importing and checking dataset
@@ -38,3 +38,18 @@ The notebook includes a full data science project with the following steps:
 
 **User's Guide**
 
+The notebook file ("Predicting Employee Attrition With HR Data.ipynb") should be run using a locally installed version of JupyterLab or Jupyter Notebook. The "HR-Employee-Attrion.csv" file should be located in the same directory as the notebook file.
+
+All code cells should already have their output available. If not, all cells can be run at once using the ‘Restart & Run All’ command under the Kernel menu bar option, or the button on the top toolbar in Jupyter.
+
+The Jupyter Notebook is divided into several sections:
+- Data Preparation 
+    - This section includes importing, exploring, and preparing the data. Several tables of data and descriptive visuals are viewable in this section. There are no interactive elements in this section.
+- Machine Learning
+    - This section covers creating and testing the predictive models. Graphical representations of accuracy measures are viewable in this section. There are no interactive elements in this section.
+- Application 
+    - A table of feature importance and the interactive application comprise this section.
+    - The interactive application is comprised of multiple widgets. To use the application to make a prediction:
+        1. Enter values for each attribute of the employee using the sliders and dropdown boxes.
+        2. Click the ‘Predict!’ button.
+        3. Enter new values for the attributes and click the button again for a new prediction.
